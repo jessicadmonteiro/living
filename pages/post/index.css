@@ -1,1 +1,129 @@
-/* Desenvolva seu estilo aqui */
+header {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container_logo_cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bt_home {
+    width: 90px;
+    height: 38px;
+    background-color: var(--color-grey-600);
+    color: var(--color-grey-200);
+    border: transparent;
+    border-radius: 32px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 60px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 336px;
+    background-color: var(--color-grey-600);
+}
+
+.titulo {
+    width: 1140px;
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--color-grey-100);
+
+}
+
+.texto_descricao {
+    width: 1140px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-grey-200);
+}
+
+.img_post,
+.texto_conteudo,
+.container_bt_categorias {
+    width: 90%;
+    margin: auto;
+}
+
+.img_post{
+    height: 402px;
+    margin-left: 60px;
+}
+
+.texto_conteudo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-grey-200);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bt_categorias {
+    width: 142px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color-grey-200);
+    background: var(--color-grey-600);
+    border: 1px solid var(--color-grey-600);
+    border-radius: 32px;
+    margin-bottom: 50px;
+}
+
+.bt_categorias:hover {
+    background: var(--color-brand-100);
+    border: 1px solid var(--color-brand-100);
+    color: var(--color-grey-700);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 230px;
+    background-color: var(--color-grey-100);
+    margin-top: 50px;
+}
+
+.texto_roda_pe {
+    width: 550px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-grey-300);
+}
+
+.bt_roda_pe {
+    width: 142px;
+    height: 32px;
+    background: var(--color-grey-200);
+    border: 1px solid var(--color-grey-200);
+    border-radius: 32px;
+    color: var(--color-grey-600);
+}
+
+.container_logo_roda_pe {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo_logo_doda_pe {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--color-grey-700);
+}

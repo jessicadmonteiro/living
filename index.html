@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/globalStyles.css">
+    <link rel="stylesheet" href="pages/home/index.css">
     <title>Living</title>
 </head>
 <body>
     <header>
-        <div class="container_logo_cabecalho">
-            <img class="img_verde" src="/assets/Rectangle 4.png" alt="">
-            <h2 class="titulo_logo">Living</h2>
+        <div class="container">
+            <div class="container_logo">
+                <img class="img_verde" src="assets/Rectangle 4.png" alt="">
+                <h2 class="titulo_logo">Living</h2>
+            </div>
+            <h1 class="titulo_cabecalho">Cuidando de cada <span class="texto_verde">detalhe</span> da sua casa</h1>
+            <p class="texto_cabecalho">Trazendo uma nova e incrível experiência para você e para seu lar </p>
+            <button class="bt_consumir_conteudo">Consumir conteúdos</button>
         </div>
-        <button class="bt_home">Home</button>
+        <img class="img_cabecalho" src="assets/Rectangle 2.png" alt="">
     </header>
     <main>
-        <section class="container_post">
-        </section>
         <section class="container_bt_categorias">
             <button class="bt_categorias" id="todos">Todos</button>
             <button class="bt_categorias" id="pintura">Pintura</button>
@@ -29,15 +32,21 @@
             <button class="bt_categorias" id="reforma">Reforma</button>
             <button class="bt_categorias" id="aroma">Aromas</button>
         </section>
+        <section>
+            <ul class="container_posts_home">
+                
+            </ul>
+        </section>
+
     </main>
     <footer>
         <div class="container_logo_roda_pe">
-            <img class="img_verde" src="/assets/Rectangle 4.png" alt="">
+            <img class="img_verde" src="assets/Rectangle 4.png" alt="">
             <h2 class="titulo_logo_doda_pe">Living</h2>
         </div>
         <p class="texto_roda_pe">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
         <button class="bt_roda_pe">Voltar para o topo</button>
     </footer>
-    <script src="/pages/post/index.js"></script>
+    <script type="module" src="pages/home/index.js"></script>
 </body>
 </html>
